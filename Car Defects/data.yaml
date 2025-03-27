@@ -1,0 +1,14 @@
+path: ..
+train: Data/train/images
+val: Data/valid/images
+test: Data/test/images
+
+nc: 7
+names:
+  - "Crack"
+  - "Dent"
+  - "PDR-Dent"
+  - "Paint-Crack"
+  - "Paint-fading"
+  - "Rust"
+  - "Scratch"
