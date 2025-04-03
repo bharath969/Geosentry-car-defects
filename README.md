@@ -12,5 +12,7 @@ Car Defects Identifier is an AI-powered tool designed to detect and classify def
 
 - User-Friendly Interface: Upload an image and get instant defect detection results.
 
-# the model is hosted on hugging face 
-https://huggingface.co/spaces/bkr969/Car_Dents_Identifier
+## Model Deployment 
+The model is hosted on Hugging Face Spaces and can be accessed at: https://huggingface.co/spaces/bkr969/Car_Dents_Identifier
+
+
