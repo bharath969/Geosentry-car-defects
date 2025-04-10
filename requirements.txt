@@ -1,0 +1,7 @@
+ultralytics
+gradio
+numpy
+Pillow
+opencv-python
+fpdf
+label-studio

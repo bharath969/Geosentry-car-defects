@@ -1,18 +1,19 @@
 # Car-Defects-Identifier
-## Overview
 
-Car Defects Identifier is an AI-powered tool designed to detect and classify defects in vehicles, such as paint damage, cracks, and dents. The system leverages a YOLO (You Only Look Once) object detection model to analyze images of cars and identify defects accurately.
+## How to run the app
 
-## Features
-- Automated Defect Detection: Identifies paint damage, cracks, and dents in vehicle images.
+- Create venv
+  py -3.11 -m venv car_defects_env
 
-- YOLO Model: Utilizes the YOLOv8 object detection algorithm for fast and efficient predictions.
+- Actiavte the environmet
+  car_defects_env\Scripts\activate
 
-- Hosted on Hugging Face Spaces: Easily accessible via the web without requiring local installation.
+- Install requirements
+  pip install -r requirements.txt
 
-- User-Friendly Interface: Upload an image and get instant defect detection results.
+- Run the jupyter/collab file
+  Create the yaml file hero for yolo
+  train the model here
 
-## Model Deployment 
-The model is hosted on Hugging Face Spaces and can be accessed at: https://huggingface.co/spaces/bkr969/Car_Dents_Identifier
-
-
+- run the gradio app
+  Both app.py and app1_l.py are gradio app(littel ui change)

@@ -1,11 +1,37 @@
-# Ignore virtual environment
-bkr_env/
-.gradio/
+# Python
 __pycache__/
-# Ignore other common stuff
-__pycache__/
-*.pyc
-.DS_Store
+*.py[cod]
+*.ipynb_checkpoints
 
-# Optional (if you use VS Code)
+# Environments
+env/
+venv/
+car_defects_env/
+
+# Model weights
+*.pt
+
+# Gradio or Streamlit cache
+*.gradio/
+.gradio/
+.streamlit/
+
+# Jupyter Notebook metadata
+*.ipynb_checkpoints/
+
+# Data & training outputs
+runs/
+data_temp.yaml
+
+# VS Code settings
 .vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Ignore model outputs and checkpoints
+best.pt

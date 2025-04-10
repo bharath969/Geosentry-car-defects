@@ -1,5 +1,0 @@
-ultralytics
-gradio
-numpy
-PIL
-opencv
