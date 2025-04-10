@@ -16,4 +16,4 @@
   train the model here
 
 - run the gradio app
-  Both app.py and app1_l.py are gradio app(littel ui change)
+  Both app.py and app1_l.py are gradio app(little ui change)
