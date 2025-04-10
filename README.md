@@ -1,19 +1,20 @@
-# Car-Defects-Identifier
+# 🚗 Car Defects Identifier
 
-## How to run the app
+A YOLOv8-based deep learning project to detect car defects like **dents**, **paint damage**, and **gaps**.  
+It includes training scripts, pre-trained weights, and a user-friendly Gradio web interface.
 
-- Create venv
+---
+
+## 🛠️ Setup Instructions
+
+### Create virtual environment
   py -3.11 -m venv car_defects_env
-
-- Actiavte the environmet
+### Actiavte the environmet
   car_defects_env\Scripts\activate
-
-- Install requirements
+### Install requirements
   pip install -r requirements.txt
+### Run the jupyter/collab file
+  The notebook creates the yaml file and train the model
 
-- Run the jupyter/collab file
-  Create the yaml file hero for yolo
-  train the model here
-
-- run the gradio app
-  Both app.py and app1_l.py are gradio app(little ui change)
+### Run the gradio app
+  Both app.py and app1_l.py are gradio app(littel ui change)
